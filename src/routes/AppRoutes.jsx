@@ -11,6 +11,7 @@ import ManagePage from '../pages/ManagePage';
 import SettingPage from '../pages/SettingPage';
 import Recap from '../pages/Recap';
 import RecapUserState from '../pages/RecapUserState';
+import EasyZustand from '../pages/EasyZustand';
 
 function AppRoutes() {
     return (
@@ -25,6 +26,8 @@ function AppRoutes() {
                     <Route path="register" element={<Register/>} />
                     <Route path="recap" element={<Recap/>} />
                     <Route path="recapuserstate" element={<RecapUserState />} />
+                    <Route path="zustand" element={<EasyZustand />} />
+
                 </Route>
 
                 {/* Private */}

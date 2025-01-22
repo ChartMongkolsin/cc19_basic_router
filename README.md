@@ -46,3 +46,8 @@ export default {
 @tailwind components;
 @tailwind utilities;
 ```
+## Zustand
+``` install 
+npm install zustand
+
+```
