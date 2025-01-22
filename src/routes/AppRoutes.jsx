@@ -12,6 +12,8 @@ import SettingPage from '../pages/SettingPage';
 import Recap from '../pages/Recap';
 import RecapUserState from '../pages/RecapUserState';
 import EasyZustand from '../pages/EasyZustand';
+import Product from '../pages/Product';
+import MyCart from '../pages/MyCart';
 
 function AppRoutes() {
     return (
@@ -27,6 +29,8 @@ function AppRoutes() {
                     <Route path="recap" element={<Recap/>} />
                     <Route path="recapuserstate" element={<RecapUserState />} />
                     <Route path="zustand" element={<EasyZustand />} />
+                    <Route path="product" element={<Product />} />
+                    <Route path="mycart" element={<MyCart />} />
 
                 </Route>
 

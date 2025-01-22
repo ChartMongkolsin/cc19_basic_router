@@ -24,11 +24,12 @@ import brower router
 ```
 
 ## tailwind
-```Install 
+```bash 
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 
-``` taliwind.config
+taliwind.config
+```bash 
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -40,14 +41,27 @@ export default {
   },
   plugins: [],
 }
+```
 
-``` index.css
+index.css
+```bash
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
 ## Zustand
-``` install 
+```bash 
 npm install zustand
 
+```
+
+## Axios
+```bash
+npm install axios
+```
+
+## lucide icon
+```bash
+npm install lucide-react
+import.....
 ```
